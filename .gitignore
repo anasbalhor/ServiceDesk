@@ -3,6 +3,18 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Environment files
+**/.env
+!**/.env.example
+
+
+appsettings.Development.json
+appsettings.Production.json
+
+# Docker
+infra/.env
+
+
 # User-specific files
 *.rsuser
 *.suo
